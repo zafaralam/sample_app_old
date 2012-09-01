@@ -8,9 +8,8 @@ gem 'bootstrap-sass', '2.0.0'
 group :development, :test do
    gem 'sqlite3'
    gem 'rspec-rails', '2.10.0'
+   gem 'annotate', '2.5.0', group: :development
 end
-
-gem 'annotate', '2.5.0', group: :development
 
 
 # Gems used only for assets and not required
